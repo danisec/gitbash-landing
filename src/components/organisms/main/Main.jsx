@@ -8,7 +8,7 @@ function Main() {
             <div className='main layout mt-12 mb-12'>
                 <div className='md:-ml-36 lg:-ml-64 xl:-ml-80'>
 
-                    <div className='tab flex gap-6'>
+                    <div className='tab flex gap-6 overflow-auto'>
                         <Tab />
                     </div>
 
