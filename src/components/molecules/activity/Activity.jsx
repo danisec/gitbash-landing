@@ -20,13 +20,13 @@ function Activity() {
     };
     return (
         <>
-            <div className='mt-8 hidden sm:flex sm:justify-center'>
+            <div className='mt-6 hidden sm:flex sm:justify-center'>
                 <GitHubCalendar
                     username="danisec"
                 />
             </div>
 
-            <div className='mt-8 flex justify-center sm:hidden'>
+            <div className='mt-6 flex justify-center sm:hidden'>
                 <GitHubCalendar
                     username="danisec"
                     transformData={selectLastHalfYear}

@@ -3,7 +3,7 @@ import SocialMedia from '../../molecules/socialmedia/SocialMedia'
 import Button from '../../atoms/button/button'
 import Folder from '../../molecules/folder/folder'
 
-import Profile from '../../../assets/profile/profile.svg'
+import Avatar from '../../atoms/avatar/Avatar'
 import Location from '../../../assets/icon/location.svg'
 import Link from '../../../assets/icon/link.svg'
 
@@ -15,7 +15,7 @@ function Aside() {
                 <div className='gap-6 sx:flex md:block'>
 
                     <div>
-                        <img className='w-full sx:w-28 md:w-52' src={Profile} alt="profile" />
+                        <Avatar avatarClass={`w-full sx:w-28 md:w-52`} />
                     </div>
 
                     <div className='mt-6'>
@@ -30,11 +30,11 @@ function Aside() {
                 </div>
 
                 <div className='mt-6 flex flex-wrap gap-4'>
-                    <SocialMedia />
+                    <SocialMedia socialClass={`w-6 ms:w-7 h-auto`} />
                 </div>
 
                 <div className='mt-6'>
-                    <Button />
+                    <Button buttonName={`Follow`} />
                 </div>
 
                 <div className='mt-6'>
@@ -53,7 +53,10 @@ function Aside() {
 
                 <div className='folders mt-10'>
                     <h4 className='text-lg font-semibold cursor-default'>Folders</h4>
-                    <Folder />
+                    <Folder 
+                    folderClass={`flex gap-2 bg-white p-2.5 rounded-md shadow-sm shadow-slate-200 hover:shadow-sm hover:shadow-slate-300 hover:scale-105 hover:duration-300'`} 
+                    imgClass={`w-5 h-auto`} 
+                    spanClass={`text-base font-semibold text-gray-800`} />
                 </div>
             </aside>
         </>

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Logo from '../../atoms/logo/Logo'
-import Search from '../../atoms/search/Search'
+import Search from '../../molecules/search/Search'
 import Avatar from '../../atoms/avatar/Avatar'
 
 function Navbar() {
@@ -12,7 +12,7 @@ function Navbar() {
 
                     <div>
                         <a className='w-8 h-auto flex gap-2' href={'/'}>
-                            <Logo />
+                            <Logo logoName={`Gitbash`} />
                         </a>
                     </div>
 
@@ -27,7 +27,7 @@ function Navbar() {
                     </div>
 
                     <div>
-                        <Avatar />
+                        <Avatar avatarClass={`w-9 rounded-full`} />
                     </div>
                 </div>
             </nav>

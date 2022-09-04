@@ -1,10 +1,10 @@
 import React from 'react'
 import Profile from '../../../assets/profile/profile.svg'
 
-function Avatar() {
+function Avatar({ avatarClass }) {
     return (
         <>
-            <img className='w-9 rounded-full' src={Profile} alt="profile" />
+            <img className={`${avatarClass}`} src={Profile} alt="profile" />
         </>
     )
 }
