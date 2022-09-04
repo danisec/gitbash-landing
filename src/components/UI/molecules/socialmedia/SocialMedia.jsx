@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Twitter from '../../../assets/icon/twitter.svg'
-import Instagram from '../../../assets/icon/instagram.svg'
-import LinkedIn from '../../../assets/icon/linkedin.svg'
+import Twitter from '../../../../assets/icon/twitter.svg'
+import Instagram from '../../../../assets/icon/instagram.svg'
+import LinkedIn from '../../../../assets/icon/linkedin.svg'
 
 function SocialMedia({ socialClass }) {
     return (

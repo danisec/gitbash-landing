@@ -1,8 +1,8 @@
 import React from 'react'
 
-import FolderIndigo from '../../../assets/icon/folder-indigo.svg'
-import FolderPink from '../../../assets/icon/folder-pink.svg'
-import FolderOrange from '../../../assets/icon/folder-orange.svg'
+import FolderIndigo from '../../../../assets/icon/folder-indigo.svg'
+import FolderPink from '../../../../assets/icon/folder-pink.svg'
+import FolderOrange from '../../../../assets/icon/folder-orange.svg'
 
 function folder({ folderClass, imgClass, spanClass }) {
     return (

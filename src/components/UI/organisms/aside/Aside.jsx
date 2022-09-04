@@ -4,8 +4,8 @@ import Button from '../../atoms/button/button'
 import Folder from '../../molecules/folder/folder'
 
 import Avatar from '../../atoms/avatar/Avatar'
-import Location from '../../../assets/icon/location.svg'
-import Link from '../../../assets/icon/link.svg'
+import Location from '../../../../assets/icon/location.svg'
+import Link from '../../../../assets/icon/link.svg'
 
 function Aside() {
     return (
@@ -53,10 +53,10 @@ function Aside() {
 
                 <div className='folders mt-10'>
                     <h4 className='text-lg font-semibold cursor-default'>Folders</h4>
-                    <Folder 
-                    folderClass={`flex gap-2 bg-white p-2.5 rounded-md shadow-sm shadow-slate-200 hover:shadow-sm hover:shadow-slate-300 hover:scale-105 hover:duration-300'`} 
-                    imgClass={`w-5 h-auto`} 
-                    spanClass={`text-base font-semibold text-gray-800`} />
+                    <Folder
+                        folderClass={`flex gap-2 bg-white p-2.5 rounded-md shadow-sm shadow-slate-200 hover:shadow-sm hover:shadow-slate-300 hover:scale-105 hover:duration-300'`}
+                        imgClass={`w-5 h-auto`}
+                        spanClass={`text-base font-semibold text-gray-800`} />
                 </div>
             </aside>
         </>

@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from "../../organisms/navbar/Navbar";
+import Navbar from "../../UI/organisms/navbar/Navbar";
 
-import Aside from '../../organisms/aside/Aside'
-import Main from '../../organisms/main/Main'
+import Aside from '../../UI/organisms/aside/Aside'
+import Main from '../../UI/organisms/main/Main'
 
-import Footer from '../../organisms/footer/Footer'
+import Footer from '../../UI/organisms/footer/Footer'
 
 function Layout() {
     return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import CubeIcon from '../../../assets/icon/cube.svg'
+import CubeIcon from '../../../../assets/icon/cube.svg'
 
 function Cube() {
     return (
